@@ -19,7 +19,7 @@ int main()
     }
     Temp=Temp/10;
   }
-  printf("\n Count of zeros%d",No,Zcnt);
+  printf("\n Count of zeros%d",Zcnt);
   getch();
   return 0;
 }
