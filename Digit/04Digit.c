@@ -12,7 +12,7 @@ int main()
   
   while (Temp>0)
   {
-    Dig=Temp%10;
+    Dig = Temp % 10;
     if(Dig==7)
     {
       cnt7++;
