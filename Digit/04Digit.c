@@ -19,7 +19,7 @@ int main()
     }
     Temp=Temp/10;
   }
-  printf("\n Count of seventh %d",No,cnt7);
+  printf("\n Count of seventh %d",cnt7);
   getch();
   return 0;
 }
