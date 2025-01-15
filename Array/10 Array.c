@@ -4,9 +4,9 @@
 
 int main()
 {
-  int i=0, Bills[7]={0}, Bsum=0;
+  int i = 0, Bills[7] = {0}, Bsum = 0;
   
-  printf("\n\n Enter Today's Bills");
+  printf("\n\n Enter Today's Bills \n");
   
   for(i=0;i<7;i++)
   {
@@ -16,7 +16,7 @@ int main()
     Bsum = Bsum + Bills[i];
   }
   getch();
-  printf("\n\n Total of Today's All Bills=%",Bsum);
+  printf("\n\n Total of Today's All Bills=%d",Bsum);
   getch();
   return 0;
 }
